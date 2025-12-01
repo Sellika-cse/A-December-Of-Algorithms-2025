@@ -1,1 +1,8 @@
-
+l=[]
+n=int(input())
+for i in range(n):
+	x=i*i
+	if x in range(n):
+		l.append(x)
+print(*l)
+print(len(l))
